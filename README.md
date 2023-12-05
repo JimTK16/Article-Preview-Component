@@ -14,7 +14,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: https://github.com/JimTK16/Article-Preview-Component
-- Live Site URL:
+- Live Site URL: https://article-preview-component-by-jim.netlify.app/
 
 ## My process
 
