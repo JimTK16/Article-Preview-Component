@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
+    <title>Article preview component</title>
+  </head>
+  <body>
+    <article class="article" id="articleContainer">
+      <div class="image-wrapper">
+        <img
+          src="images/drawers.jpg"
+          width="660"
+          height="528"
+          alt="A dark green drawer with a flower pot on top"
+          class="hero-image"
+        />
+      </div>
+
+      <div class="sections-wrapper">
+        <section class="article-header">
+          <h2 class="article-header-title">
+            Shift the overall look and feel by adding these wonderful touches to
+            furniture in your home
+          </h2>
+          <p class="article-header-summary">
+            Ever been in a room and felt like something was missing? Perhaps it
+            felt slightly bare and uninviting. I&#39;ve got some simple tips to
+            help you make any room feel complete.
+          </p>
+        </section>
+        <section class="article-footer" id="articleFooter">
+          <div class="author" id="author">
+            <img
+              src="images/avatar-michelle.jpg"
+              alt="Female Staff"
+              width="175"
+              height="175"
+              class="author-avatar"
+            />
+            <div class="author-details">
+              <h4 class="name">Michelle Appleton</h4>
+              <small class="publishedDate">28 Jun 2020</small>
+            </div>
+          </div>
+          <div class="shareOptions-wrapper" id="shareOptionsWrapper">
+            <div class="shareOptions" id="shareOptions">
+              <span class="shareOptions-text">Share</span>
+              <img
+                src="images/icon-facebook.svg"
+                alt="facebook icon"
+                width="20"
+                height="20"
+                class="icon"
+              />
+              <img
+                src="images/icon-twitter.svg"
+                alt="twitter icon"
+                width="20"
+                height="17"
+              />
+              <img
+                src="images/icon-pinterest.svg"
+                alt="pinterest icon"
+                width="20"
+                height="20"
+              />
+            </div>
+          </div>
+          <button class="sharebtn" id="shareBtn">
+            <!-- <img
+              src="images/icon-share.svg"
+              alt="share icon"
+              width="15"
+              height="13"
+            /> -->
+            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="13">
+              <path
+                id="shareIconPath"
+                fill="#6E8098"
+                d="M15 6.495L8.766.014V3.88H7.441C3.33 3.88 0 7.039 0 10.936v2.049l.589-.612C2.59 10.294 5.422 9.11 8.39 9.11h.375v3.867L15 6.495z"
+              />
+            </svg>
+          </button>
+        </section>
+      </div>
+    </article>
+  </body>
+</html>
